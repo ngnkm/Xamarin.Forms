@@ -39,6 +39,7 @@ namespace Xamarin.Forms.Xaml.UnitTests
 				Assert.AreEqual (new Rectangle (0, 1, 2, 4), p.RectangleP);
 				Assert.AreEqual (new Rectangle (4, 8, 16, 32), p.RectangleBP);
 				Assert.AreEqual (Color.Pink, p.BackgroundColor);
+				Assert.AreEqual(new Thickness(2, 3), p.label.Margin);
 			}
 		}
 	}
